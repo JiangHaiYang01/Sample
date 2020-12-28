@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.allens.sample_aidl.MainActivity">
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context="com.allens.sample_messenger.MainActivity">
+
+
 
 
 </LinearLayout>

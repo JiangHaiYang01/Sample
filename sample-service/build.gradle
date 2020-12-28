@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.allens.sample_aidl"
+        applicationId "com.allens.sample_service"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -30,7 +30,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
 
     buildFeatures {
         // 启用 viewBinding

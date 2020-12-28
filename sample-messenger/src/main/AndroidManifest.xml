@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.allens.sample_aidl">
+    package="com.allens.sample_messenger">
+
+
+    <!-- android 11 上需要指定需要访问的进程appId -->
+    <queries>
+        <package android:name="com.allens.sample_service" />
+    </queries>
+
+    <!-- 如果服务定义了权限。那么这里需要申请权限 -->
+    <uses-permission android:name="com.allens.lib_intent.CUSTOM_PERMISSION"/>
 
     <application
         android:allowBackup="true"
@@ -9,7 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sample">
-        <activity android:name="com.allens.sample_aidl.MainActivity">
+        <activity android:name="com.allens.sample_messenger.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -2,3 +2,5 @@ rootProject.name = "Sample"
 include ':app'
 include ':sample-thread'
 include ':sample-aidl'
+include ':sample-service'
+include ':sample-messenger'

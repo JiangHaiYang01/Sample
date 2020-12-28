@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.allens.sample_aidl.MainActivity">
+    tools:context="com.allens.sample_service.MainActivity">
 
 
 </LinearLayout>
