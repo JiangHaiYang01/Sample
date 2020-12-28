@@ -1,3 +1,4 @@
+include ':sample-handler'
 rootProject.name = "Sample"
 include ':app'
 include ':sample-thread'

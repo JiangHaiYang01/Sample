@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/sample-aidl" />
+            <option value="$PROJECT_DIR$/sample-handler" />
             <option value="$PROJECT_DIR$/sample-messenger" />
             <option value="$PROJECT_DIR$/sample-service" />
             <option value="$PROJECT_DIR$/sample-thread" />
