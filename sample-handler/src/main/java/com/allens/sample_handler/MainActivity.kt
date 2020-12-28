@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
     private fun initHandler() {
         Thread {
             Looper.prepare()
-            handler = Handler(Looper.getMainLooper()){
+            handler = Handler(){
                 when(it.what){
                     MESSAGE_TYPE_SYNC -> {
                         Log.i(TAG, "收到同步消息<========== index:${it.arg1}")
