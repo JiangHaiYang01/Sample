@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- oneshot 是否只播放一次 -->
+    <!-- duration 延时时间 单位毫秒 -->
+    <item android:drawable="@drawable/farm_0" android:duration="100" />
+    <item android:drawable="@drawable/farm_1" android:duration="100" />
+    <item android:drawable="@drawable/farm_2" android:duration="100" />
+
+</animation-list>

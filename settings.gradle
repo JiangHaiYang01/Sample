@@ -1,3 +1,4 @@
+include ':sample-anim-frame'
 include ':sample-handler'
 rootProject.name = "Sample"
 include ':app'
