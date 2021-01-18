@@ -15,13 +15,16 @@
             <option value="$PROJECT_DIR$/sample-aidl" />
             <option value="$PROJECT_DIR$/sample-anim-frame" />
             <option value="$PROJECT_DIR$/sample-handler" />
+            <option value="$PROJECT_DIR$/sample-leakcanary" />
             <option value="$PROJECT_DIR$/sample-messenger" />
+            <option value="$PROJECT_DIR$/sample-proxy" />
+            <option value="$PROJECT_DIR$/sample-retrofit" />
             <option value="$PROJECT_DIR$/sample-service" />
             <option value="$PROJECT_DIR$/sample-thread" />
+            <option value="$PROJECT_DIR$/sample-thread-pool" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
