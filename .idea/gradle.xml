@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/sample-handler" />
             <option value="$PROJECT_DIR$/sample-leakcanary" />
             <option value="$PROJECT_DIR$/sample-messenger" />
+            <option value="$PROJECT_DIR$/sample-okhttp" />
             <option value="$PROJECT_DIR$/sample-proxy" />
             <option value="$PROJECT_DIR$/sample-retrofit" />
             <option value="$PROJECT_DIR$/sample-service" />
