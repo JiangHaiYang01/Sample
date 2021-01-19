@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/sample-aidl" />
             <option value="$PROJECT_DIR$/sample-anim-frame" />
+            <option value="$PROJECT_DIR$/sample-coroutines" />
             <option value="$PROJECT_DIR$/sample-handler" />
             <option value="$PROJECT_DIR$/sample-leakcanary" />
             <option value="$PROJECT_DIR$/sample-messenger" />
