@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/sample-service" />
             <option value="$PROJECT_DIR$/sample-thread" />
             <option value="$PROJECT_DIR$/sample-thread-pool" />
+            <option value="$PROJECT_DIR$/sample-view" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
