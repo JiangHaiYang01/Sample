@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/sample-anim-frame" />
             <option value="$PROJECT_DIR$/sample-coroutines" />
             <option value="$PROJECT_DIR$/sample-handler" />
+            <option value="$PROJECT_DIR$/sample-hilt" />
+            <option value="$PROJECT_DIR$/sample-kotin" />
             <option value="$PROJECT_DIR$/sample-leakcanary" />
             <option value="$PROJECT_DIR$/sample-messenger" />
             <option value="$PROJECT_DIR$/sample-okhttp" />
