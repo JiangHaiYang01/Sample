@@ -17,48 +17,27 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         println("->onCreate")
-//        val linear = findViewById<LinearLayout>(R.id.linear)
-//        linear.addView(MaterialButton(this).apply {
-//            text = "启动模式"
-//            setOnClickListener {
-//                startActivity(Intent(this@MainActivity, ModuleAct::class.java))
-//            }
-//        })
-//        linear.addView(MaterialButton(this).apply {
-//            text = "调度器"
-//            setOnClickListener {
-//                startActivity(Intent(this@MainActivity, DispatchersAct::class.java))
-//            }
-//        })
-
-        lifecycleScope.launch {
-            println("->launch")
-        }
-
-        lifecycleScope.launchWhenResumed {
-            println("->launchWhenResumed")
-        }
-
-        lifecycleScope.launchWhenStarted {
-            println("->launchWhenStarted")
-        }
-
-        lifecycleScope.launchWhenCreated {
-            println("->launchWhenCreated")
-        }
-
-
+        val linear = findViewById<LinearLayout>(R.id.linear)
+        linear.addView(MaterialButton(this).apply {
+            text = "启动模式"
+            setOnClickListener {
+                startActivity(Intent(this@MainActivity, ModuleAct::class.java))
+            }
+        })
+        linear.addView(MaterialButton(this).apply {
+            text = "调度器"
+            setOnClickListener {
+                startActivity(Intent(this@MainActivity, DispatchersAct::class.java))
+            }
+        })
+        linear.addView(MaterialButton(this).apply {
+            text = "作用域"
+            setOnClickListener {
+                startActivity(Intent(this@MainActivity, ScopeAct::class.java))
+            }
+        })
     }
 
-    override fun onResume() {
-        super.onResume()
-        println("->onResume")
-    }
-
-    override fun onStart() {
-        super.onStart()
-        println("->onStart")
-    }
 
 }
 

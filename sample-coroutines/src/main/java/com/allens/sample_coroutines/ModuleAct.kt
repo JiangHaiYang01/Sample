@@ -140,7 +140,11 @@ class ModuleAct  : AppCompatActivity() {
             val job = GlobalScope.launch(start = start) {
                 buffer.append("->执行协程")
                 delay(100)
+                buffer.append("->取消协程")
+                cancel()
+                buffer.append("->end")
                 buffer.append("->协程执行完成")
+
             }
             buffer.append("->启动协程")
             //是否start 不会影响结果
@@ -149,9 +153,10 @@ class ModuleAct  : AppCompatActivity() {
             }
             //确保一定执行了 start()
             Thread.sleep(20)
-            buffer.append("->取消协程")
-            job.cancel()
-            buffer.append("->end")
+//            buffer.append("->取消协程")
+//            job.cancel()
+//            buffer.append("->end")
+            Thread.sleep(2000)
             println("第${i}次 $buffer")
         }
     }
