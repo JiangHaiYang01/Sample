@@ -13,9 +13,10 @@ class CanvasItemActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test)
         val list = arrayListOf(
-            createCanvasButton(this, CanvasEnum.drawArc,"画弧线 drawArc", CanvasAct::class.java),
-            createCanvasButton(this, CanvasEnum.clipPath,"范围裁切 clipPath", CanvasAct::class.java),
-            createCanvasButton(this, CanvasEnum.clipRect,"范围裁切 clipRect", CanvasAct::class.java)
+            createCanvasButton(this, CanvasEnum.drawColor, "颜色 drawColor", CanvasAct::class.java),
+            createCanvasButton(this, CanvasEnum.drawArc, "画弧线 drawArc", CanvasAct::class.java),
+            createCanvasButton(this, CanvasEnum.clipPath, "范围裁切 clipPath", CanvasAct::class.java),
+            createCanvasButton(this, CanvasEnum.clipRect, "范围裁切 clipRect", CanvasAct::class.java)
         )
 
 

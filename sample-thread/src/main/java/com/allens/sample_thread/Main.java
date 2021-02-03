@@ -5,8 +5,6 @@ public class Main {
         testDeadlock();
     }
 
-
-
     public static void testDeadlock() {
         Object obj1 = new Object();
         Object obj2 = new Object();

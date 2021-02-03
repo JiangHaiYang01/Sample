@@ -33,6 +33,7 @@ enum class PaintEnum {
 
 }
 enum class CanvasEnum{
+    drawColor,
     drawArc,
     clipRect,
     clipPath,

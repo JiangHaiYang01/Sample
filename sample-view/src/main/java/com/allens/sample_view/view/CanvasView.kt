@@ -60,6 +60,9 @@ class CanvasView @JvmOverloads constructor(
                 );
                 canvas.restore();
             }
+            CanvasEnum.drawColor->{
+                canvas.drawColor(Color.BLUE)
+            }
             CanvasEnum.drawArc -> {
                 mPaint.style = Paint.Style.STROKE
                 mPaint.strokeWidth = 10f
