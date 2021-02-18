@@ -5,7 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="PLATFORM" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/sample-hilt" />
             <option value="$PROJECT_DIR$/sample-kotin" />
             <option value="$PROJECT_DIR$/sample-leakcanary" />
+            <option value="$PROJECT_DIR$/sample-livedata" />
             <option value="$PROJECT_DIR$/sample-messenger" />
             <option value="$PROJECT_DIR$/sample-okhttp" />
             <option value="$PROJECT_DIR$/sample-proxy" />
