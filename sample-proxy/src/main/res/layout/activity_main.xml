@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <com.google.android.material.button.MaterialButton
-       android:id="@+id/btn_proxy_statically"
-       android:text="静态代理"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical" />
 
-   <com.google.android.material.button.MaterialButton
-       android:id="@+id/btn_proxy_dynamic"
-       android:text="JDK动态代理"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"/>
-
-
-   <com.google.android.material.button.MaterialButton
-       android:id="@+id/btn_proxy_dynamic_cglib"
-       android:text="CgLib动态代理"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"/>
-
-</LinearLayout>
+</ScrollView>
