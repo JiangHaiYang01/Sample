@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="sample-activity/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="sample-adapter/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="sample-proxy/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="sample-recyclerview/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="sample-recyclerview/src/main/res/layout/item_content.xml" value="0.5" />
       </map>
     </option>
   </component>
