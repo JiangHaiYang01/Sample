@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/sample-adapter" />
             <option value="$PROJECT_DIR$/sample-aidl" />
             <option value="$PROJECT_DIR$/sample-anim-frame" />
+            <option value="$PROJECT_DIR$/sample-avrcp" />
+            <option value="$PROJECT_DIR$/sample-compose" />
             <option value="$PROJECT_DIR$/sample-coroutines" />
             <option value="$PROJECT_DIR$/sample-handler" />
             <option value="$PROJECT_DIR$/sample-hilt" />
